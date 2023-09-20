@@ -1,0 +1,25 @@
+{
+    "name": "zia/yii2-boom-service",
+    "type": "yii2-extension",
+
+    "description": "The fara boom integration for the Yii framework",
+    "keywords": ["yii2", "faraboom"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Yadollah Ziaadini",
+            "email": "y.ziaadini@gmail.com"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "yii\\boom-service\\": ""
+        }
+    }
+}
